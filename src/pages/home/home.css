@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo p {
+  font-size: 2rem;
+  font-family: "New Amsterdam";
+  color: #5d5d5d;
+}
+
+.hello {
+  position: relative;
+  height: calc(100vh - (80px + 1rem));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
