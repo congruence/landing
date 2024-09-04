@@ -23,7 +23,7 @@ const PlayPause = (props) => {
   useEffect(() => {
     if (toggle) sound.play();
     else sound.pause();
-  }, [toggle]);
+  }, [toggle, sound]);
 
   return (
     <animated.div className="play-pause" style={style}>
